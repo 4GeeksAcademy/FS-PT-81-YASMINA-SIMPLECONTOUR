@@ -9,5 +9,13 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+    const root = ReactDOM.createRoot(document.getElementById('app'));
+    let contador = 0
+    setInterval(()=>{
+        contador++
+        root.render(
+        <Home time={contador}/>
+    );
+},1000)
+
 

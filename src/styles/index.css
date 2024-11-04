@@ -1,12 +1,14 @@
+.counter{
+    width: 80px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #363636;
+    color: whitesmoke;
+    font-size: 3rem;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 1);
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
